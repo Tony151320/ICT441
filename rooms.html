@@ -1,0 +1,179 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Rooms</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http//fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet" href="css/JFGrid.css" />
+<link type="text/css" rel="stylesheet" href="css/JFFormStyle-1.css" />
+		<script type="text/javascript" src="js/JFCore.js"></script>
+		<script type="text/javascript" src="js/JFForms.js"></script>
+		<!-- Set here the key for your domain in order to hide the watermark on the web server -->
+		<script type="text/javascript">
+			(function() {
+				JC.init({
+					domainKey: ''
+				});
+				})();
+		</script>
+<!--nav-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt=""></a>
+		</div>
+		<div class="h_right">
+			<!--start menu -->
+			<ul class="menu">
+				<li><a href="index.html">School</a></li> |
+				<li class="active"><a href="rooms.html">School Profile</a></li> |
+				<li><a href="reservation.html">reservation</a></li> |
+				<li><a href="activities.html">COURSE INTRODUCTION</a></li> |
+				<li><a href="contact.html">contact</a></li>
+				<div class="clear"></div>
+			</ul>
+			<!-- start profile_details -->
+					<form class="style-1 drp_dwn">
+						<div class="row">
+							<div class="grid_3 columns">
+								<select class="custom-select" id="select-1">
+									<option selected="selected">EN</option>
+									<option>USA</option>
+									<option>AUS</option>
+									<option>UK</option>
+									<option>IND</option>
+								</select>
+							</div>		
+						</div>		
+					</form>
+		</div>
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+				<li class="active"><a href="index.html">School</a></li> 
+				<li><a href="rooms.html">School Profile</a></li> 
+				<li><a href="reservation.html">reservation</a></li> 
+				<li><a href="activities.html">COURSE INTRODUCTION</a></li> 
+				<li><a href="contact.html">contact</a></li>
+				</ul>
+				<a href="#" id="pull">Menu</a>
+			</nav>
+		</div>
+	</div>
+</div>
+</div>
+<!--start main -->
+<div class="main_bg">
+<div class="wrap">
+	<div class="main">
+		<div class="content">
+			<div class="room">
+				<h4>IT Ningji University</h4>
+				<p class="para">This is a school with a long history, with over a hundred teachers, dozens of excellent teachers, and thousands of students. The school covers an area of more than 100 acres and has complete facilities. The school adheres to the concept of open education and win-win cooperation, innovates mechanisms, improves quality and efficiency, and expands deep cooperation with world-class universities. The school has a complete range of disciplines, including philosophy, economics, law, education, literature, science, engineering, and management Art 9 University Courses</p>
+			</div>
+				<div class="grids_of_2">
+					<div class="grids_of_img">
+						<img src="images/pic4.jpg" alt=""/>
+					</div>
+					<div class="grids_of_para">
+						<p class="para">Our teaching team is composed of top-notch educators and industry experts, who have rich teaching experience and profound knowledge reserves. This team has outstanding educators, whose professional knowledge and enthusiasm have opened up countless possibilities for us.</p>
+					</div>
+					<div class="clear"></div>					
+				</div>
+				<div class="grids_of_2">
+					<div class="grids_of_img">
+						<img src="images/pic5.jpg" alt=""/>
+					</div>
+					<div class="grids_of_para">
+						<p class="para">Our school has thousands of students who are outgoing, optimistic, imaginative, and creative. If you join us, you will get along with them and learn a lot from them</p>
+					</div>
+					<div class="clear"></div>					
+				</div>						
+
+		</div>
+		<div class="sidebar">
+			 <div class="date_btn">
+				<form>
+					<input type="submit" value="Join us now" style="width: 82px;">
+				</form>
+			</div>
+			<h4>School features</h4>
+			<ul class="s_nav">
+				<li><a href="#">Multiple excellent training courses</a></li>
+				<li><a href="#">Harmonious teaching atmosphere</a></li>
+				<li><a href="#">Excellent teaching environment</a></li>
+				<li><a href="#">Easy extracurricular activities</a></li>
+				<li><a href="#"></a></li>
+			</ul>
+			<h4>we accept</h4>
+			<ul class="s_nav1">
+				<li><a class="icon1" href="#"></a></li>
+				<li><a class="icon2" href="#"></a></li>
+				<li><a class="icon3" href="#"></a></li>
+				<li><a class="icon4" href="#"></a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+</div>		
+<!--start main -->
+<div class="footer_bg">
+<div class="wrap">
+<div class="footer">
+			<div class="copy">
+				<p class="link"><span>Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http//www.zjf88.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+			</div>
+			<div class="f_nav">
+				<ul>
+					<li><a href="index.html">home</a></li>
+					<li><a href="rooms.html">rooms & suits</a></li>
+					<li><a href="reservation.html">reservation</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="soc_icons">
+				<ul>
+					<li><a class="icon1" href="#"></a></li>
+					<li><a class="icon2" href="#"></a></li>
+					<li><a class="icon3" href="#"></a></li>
+					<li><a class="icon4" href="#"></a></li>
+					<li><a class="icon5" href="#"></a></li>
+					<div class="clear"></div>
+				</ul>	
+			</div>
+			<div class="clear"></div>
+</div>
+</div>
+</div>		
+<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
